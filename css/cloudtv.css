@@ -1,0 +1,44 @@
+.a-overide{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.container{
+	display: grid;
+	grid-template-areas: "item1 item2 item3";
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	border: solid white;
+	background-color: #f3f4f6;
+}
+.item1{
+	grid-area: item1;
+/*	border: solid grey 2px;*/
+	
+	height: 2rem;
+	margin: 3px;
+}
+.item2{
+	grid-area: item2;
+	height: 2rem;
+	margin: 3px;
+}
+.item3{
+	grid-area: item3;
+	height: 2rem;
+	margin: 3px;
+}
+.btn-success{
+	font-weight:700;
+}
+.card{
+	background: url( );
+}
+	body{
+	background-image: url("bacgroun.jpg");
+	background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100hv;
+}
